@@ -93,6 +93,8 @@ nav a {
         border: none;
         color: #3498bd;
     }
-    nav ul.show
+    nav ul.show{
+        left: 0;
+    }
 
 }
