@@ -49,6 +49,18 @@ nav #icon{
     cursor: pointer;
     display: none;
 }
+@media (max-width: 1048px){
+    label.logo{
+        font-size: 32px;
+        padding-left: 60px;
+    }
+    nav ul{
+        margin-right: 20px;
+    }
+    nav a{
+        font-size: 17px;
+    }
+}
 nav ul {
     margin-right: 17px;
 }
@@ -65,11 +77,21 @@ nav a {
         height: 100vh;
         background: #2f3640;
         top: 80px;
-        left: 0;
+        left: -100%;
         text-align: center;
+        transition: all .5s;
     }
     nav li {
         display: block;
         margin: 50px 0;
+        line-height: 30px;
     }
+    nav a{
+        font-size: 20px;
+    }
+    a.active,a:hover{
+        border: none;
+        color: #3498bd;
+    }
+
 }
