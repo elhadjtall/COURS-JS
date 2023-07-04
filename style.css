@@ -96,5 +96,9 @@ nav a {
     nav ul.show{
         left: 0;
     }
-
+}
+section{
+    background: url(fond.jpg) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 800px);
 }
